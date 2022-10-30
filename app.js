@@ -1,20 +1,18 @@
 const express = require('express');
 const morgan = require('morgan');
-const cors = require('cors');
-const corsOptions = require('./config/corsOptions');
 const path = require('path');
-const { logger } = require('./middleware/logEvents');
-const errorHandler = require('./middleware/errorHandler');
+const { logger } = require('./middlewares/logEvents');
+const errorHandler = require('./middlewares/errorHandler');
+const cookieParser = require('cookie-parser');
 
 const rootRouter = require('./routes/root');
 const sudoRouter = require('./routes/sudo');
 
 const app = express();
 // GLOBAL MIDDLEWARES
-// build in middleware to handle urlencoded form data
-app.use(express.urlencoded({ extended: false }));
-
+app.use(express.urlencoded({ extended: false })); // build in middleware to handle urlencoded form data
 app.use(express.json()); // build in middleware for json
+app.use(cookieParser());
 
 app.set('view engine', 'ejs'); // view angine setup
 app.set('views', path.join(__dirname, '/views'));
@@ -24,14 +22,12 @@ app.use(express.static(path.join(__dirname, '/public'))); // static setup
 app.use('/', rootRouter);
 app.use('/sudo', sudoRouter);
 
-// console.log(process.env.NODE_ENV);  // DEVELOPMENT LOGGING
-// if (process.env.NODE_ENV === 'development') {
-// app.use(morgan('dev')); //Logger using morgam
-// }
+console.log(process.env.NODE_ENV); // DEVELOPMENT LOGGING
+if (process.env.NODE_ENV === 'development') {
+  app.use(morgan('dev')); //Logger using morgam
+}
 // OR costom methords
 app.use(logger); // costom middleware logger
-
-app.use(cors(corsOptions)); // Cross Origin resourse sharing
 
 app.all('*', (req, res) => {
   res.status(404);
@@ -47,3 +43,4 @@ app.all('*', (req, res) => {
 app.use(errorHandler);
 
 module.exports = app;
+

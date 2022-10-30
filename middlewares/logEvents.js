@@ -25,10 +25,10 @@ const logEvents = async (message, logName) => {
 const logger = (req, res, next) => {
   logEvents(
     // `${app.use(morgan('dev'))}`,
-    `${req.method}\t${req.status}\t${req.headers.origin}\t${req.url}`,
+    `${req.method}\t${res.Status}\t${req.headers.origin}\t${req.url}`,
     'reqLoger.txt'
   );
-  console.log(`${req.method} ${req.path}`);
+  // console.log(`${req.method} ${req.path}`);
   next();
 };
 

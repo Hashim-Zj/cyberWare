@@ -1,17 +1,19 @@
 const express = require('express');
 const router = express.Router();
-const path = require('path');
+const newUser = require('./../controllers/registerController');
+const log = require('./../controllers/logController');
+const refresh = require('./../controllers/authController');
 
 router.get('/', (req, res) => {
   res
     .status(200)
     // .send('Hello frome server side!...')
-    // .json({ message: 'Hello frome server side', app: 'cyberWare' });
-    .render('index');
+    .json({ message: 'This is index page of cyberWare', app: 'cyberWare' });
+  // .render('index');
 });
-
-router.get('/signin', (req, res) => {
-  res.send('hello signin');
-});
+router.use('/signup', newUser.newUser);
+router.use('/re', refresh.handleRefreshToken);
+router.use('/login', log.logIn);
+router.use('/logout', log.logOut);
 
 module.exports = router;

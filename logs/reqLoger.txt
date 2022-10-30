@@ -87,3 +87,8 @@
 2022/10/30	02:17:07	41b3129f-fe38-43d7-ba62-f5fad9c7a535	GET	undefined	http://127.0.0.1:4000	/libs/feather-webfont/dist/feather-icons.ttf?e0a20d6edb74f52c006bb300686580b0
 2022/10/30	02:17:07	58d71317-4b84-4fb1-ac34-d23b619ecb9a	GET	undefined	http://127.0.0.1:4000	/libs/bootstrap-icons/font/fonts/bootstrap-icons.woff?524846017b983fc8ded9325d94ed40f3
 2022/10/30	02:17:07	5fe85f0b-d10a-40a3-b79d-e7d2c167368b	GET	undefined	http://127.0.0.1:4000	/libs/slick-carousel/slick/fonts/slick.ttf
+2022/10/30	20:29:22	c7255900-6fa1-4b4e-80f2-e8010674700a	POST	undefined	undefined	/signin
+2022/10/30	20:32:20	f5ab29fc-043a-4364-abee-d8a3e09b0347	POST	undefined	undefined	/signin
+2022/10/30	20:33:23	063fa277-73b3-4b7c-83bd-6cf1baf0859b	POST	undefined	undefined	/signin
+2022/10/30	20:33:24	b1db0879-be69-4b28-81ff-5d6cbb25f53e	POST	undefined	undefined	/signin
+2022/10/30	20:33:25	9f8f70c0-2bf4-43bc-a075-dc58cf1e36c9	POST	undefined	undefined	/signin

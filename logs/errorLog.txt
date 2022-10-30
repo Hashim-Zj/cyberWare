@@ -1,2 +1,6 @@
 2022/10/30	00:18:24	f2324af8-60e1-480a-8f0c-14768099b854	Error : Not allowed by CORS for undefined
 2022/10/30	00:18:24	62311acb-acd6-4b18-8973-e13b20c2f3c5	Error : Not allowed by CORS for undefined
+2022/10/30	12:26:01	28f872c8-67c8-4c57-b7be-6924d351f90d	SyntaxError : Unexpected end of JSON input
+2022/10/30	12:26:17	b7817cb1-e085-4c06-ab8d-b5907a0dafd6	SyntaxError : Unexpected end of JSON input
+2022/10/30	20:29:00	0ca595da-d2f4-4f32-a180-e30207c304d3	SyntaxError : Unexpected token , in JSON at position 45
+2022/10/30	20:29:14	e167993c-e13b-4db8-a786-791c33639b8a	SyntaxError : Unexpected token , in JSON at position 45
