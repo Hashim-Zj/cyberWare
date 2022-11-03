@@ -3,7 +3,7 @@ const mongoose = require('mongoose');
 require('dotenv').config({ path: path.join(__dirname, 'config.env') });
 const cors = require('cors');
 const corsOptions = require('./config/corsOptions');
-const connectionDB = require('./config/dbConfig');
+const { connectionDB } = require('./config/dbConfig');
 const port = process.env.PORT || 4000;
 
 const app = require('./app');

@@ -4,3 +4,66 @@
 2022/10/30	12:26:17	b7817cb1-e085-4c06-ab8d-b5907a0dafd6	SyntaxError : Unexpected end of JSON input
 2022/10/30	20:29:00	0ca595da-d2f4-4f32-a180-e30207c304d3	SyntaxError : Unexpected token , in JSON at position 45
 2022/10/30	20:29:14	e167993c-e13b-4db8-a786-791c33639b8a	SyntaxError : Unexpected token , in JSON at position 45
+2022/10/31	05:36:31	495398f1-e7ab-4638-851d-961563f8b66f	Error : Failed to lookup view "index" in views directory "/home/hashim-zj/Desktop/Work/cyberWare/views"
+2022/11/01	06:59:10	e6eda1bf-96c8-4b1a-b14b-ee57461075f0	TypeError : Converting circular structure to JSON
+    --> starting at object with constructor 'Socket'
+    |     property 'parser' -> object with constructor 'HTTPParser'
+    --- property 'socket' closes the circle
+2022/11/01	08:06:18	360a8a6b-597d-42cb-8c8d-90f540fb8653	Error : Cannot set headers after they are sent to the client
+2022/11/03	06:12:54	3ea35303-0cbc-42fd-bec3-a5c5492a77ec	Error : Failed to lookup view "layout" in views directory "/home/hashim-zj/Desktop/Work/cyberWare/views"
+2022/11/03	06:13:34	3ab3fc3c-cb29-41fc-b177-f4ad412255e9	TypeError : Cannot read properties of undefined (reading 'json')
+2022/11/03	06:13:40	27513dce-bbf3-4a10-b320-6edffe4cdff9	TypeError : Cannot read properties of undefined (reading 'json')
+2022/11/03	06:13:41	c5ab7543-2230-4711-b328-bf1f2c1bde2e	TypeError : Cannot read properties of undefined (reading 'json')
+2022/11/03	06:59:24	60740042-6180-4fe2-b96c-58db3735330a	TypeError : Cannot read properties of undefined (reading 'json')
+2022/11/03	06:59:49	16e2849d-a070-43bc-8e75-1aeb5873fdb8	TypeError : Cannot read properties of undefined (reading 'json')
+2022/11/03	07:10:30	fc85ebfa-0765-4687-8e57-61d9acf08984	TypeError : Cannot read properties of undefined (reading 'json')
+2022/11/03	07:11:07	65830284-c1c4-4581-9d72-ff56f563d084	TypeError : Cannot read properties of undefined (reading 'json')
+2022/11/03	07:13:51	fa901e2f-95fd-421a-b96d-b7290a12d88c	TypeError : Cannot read properties of undefined (reading 'json')
+2022/11/03	07:13:53	1061753f-fab3-4c61-a09f-2a9c5ae0bcd1	TypeError : Cannot read properties of undefined (reading 'json')
+2022/11/03	07:13:54	4e9eb8a3-45df-438e-b4a5-ea7b7652d648	TypeError : Cannot read properties of undefined (reading 'json')
+2022/11/03	07:13:54	a239a506-4607-4373-9ee2-7bb9b3d9251a	TypeError : Cannot read properties of undefined (reading 'json')
+2022/11/03	09:48:24	c94cbde1-33f2-40d1-9e41-e2d17fd9bed6	TypeError : Cannot read properties of undefined (reading 'json')
+2022/11/03	09:48:25	9721d0ea-37cd-494d-b367-09f9bdef70d5	TypeError : Cannot read properties of undefined (reading 'json')
+2022/11/03	09:48:26	2db259cd-edc8-4de3-a2ee-101fceb79713	TypeError : Cannot read properties of undefined (reading 'json')
+2022/11/03	09:48:26	2a7b0115-05ee-46be-adb3-fa52a9c6c3a2	TypeError : Cannot read properties of undefined (reading 'json')
+2022/11/03	09:48:27	869409a1-d45d-4c26-a7d2-4bb34febc886	TypeError : Cannot read properties of undefined (reading 'json')
+2022/11/03	09:48:29	28aadfd9-8fa2-4a69-86d1-127a84a83bd7	TypeError : Cannot read properties of undefined (reading 'json')
+2022/11/03	09:48:51	57525ca0-9581-4c76-8c61-17370ae8575a	TypeError : Cannot read properties of undefined (reading 'json')
+2022/11/03	09:48:52	662ffed5-0d8f-43de-872c-366e43b0ceef	TypeError : Cannot read properties of undefined (reading 'json')
+2022/11/03	09:48:52	8a07e05e-65a4-407b-8e10-4f4e4d2f7281	TypeError : Cannot read properties of undefined (reading 'json')
+2022/11/03	09:48:53	caa78cda-d9c1-4340-9612-c56497196057	TypeError : Cannot read properties of undefined (reading 'json')
+2022/11/03	09:50:08	bb14ae81-c772-4cbe-af9a-84c6f6c5f0b7	TypeError : Cannot read properties of undefined (reading 'status')
+2022/11/03	09:50:10	78e3e7ae-c5c2-44f3-8466-4f3e420d1706	TypeError : Cannot read properties of undefined (reading 'status')
+2022/11/03	09:50:11	e383f036-772c-4362-a139-583dc9e81e0e	TypeError : Cannot read properties of undefined (reading 'status')
+2022/11/03	09:50:11	0e2e475d-404e-4740-a0ef-24ffdf138905	TypeError : Cannot read properties of undefined (reading 'status')
+2022/11/03	09:54:18	ce03ca7c-af4d-436c-84e6-d0f31a9708f0	TypeError : Cannot read properties of undefined (reading 'status')
+2022/11/03	09:54:19	2eed7ea3-7866-4048-92bd-a995ad25acb0	TypeError : Cannot read properties of undefined (reading 'status')
+2022/11/03	09:54:20	12c0df38-d1fa-4311-bc1f-a7028e4b4f6b	TypeError : Cannot read properties of undefined (reading 'status')
+2022/11/03	10:31:59	3ba44c2f-1c3e-4e8b-af18-e4206e4e2d1f	Error : Failed to lookup view "layout" in views directory "/home/hashim-zj/Desktop/Work/cyberWare/views"
+2022/11/03	10:31:59	24c0c82b-4a32-4705-9e6b-1333d7c9cc92	Error : Failed to lookup view "layout" in views directory "/home/hashim-zj/Desktop/Work/cyberWare/views"
+2022/11/03	10:33:59	e9aa42f3-da72-4cbd-b148-264c1989d714	Error : Failed to lookup view "layout" in views directory "/home/hashim-zj/Desktop/Work/cyberWare/views"
+2022/11/03	10:35:10	42179a2a-9c15-44e8-8e77-da98d52cefbb	Error : Failed to lookup view "layout" in views directory "/home/hashim-zj/Desktop/Work/cyberWare/views"
+2022/11/03	10:35:44	32701c65-1529-4216-bf87-c8858910c705	Error : Failed to lookup view "layout" in views directory "/home/hashim-zj/Desktop/Work/cyberWare/views"
+2022/11/03	10:35:45	f02f78e7-5241-4b94-a6ec-1683bbfcaef1	Error : Failed to lookup view "layout" in views directory "/home/hashim-zj/Desktop/Work/cyberWare/views"
+2022/11/03	10:36:52	74c44b17-6942-4590-97e9-1e655da0419f	Error : Failed to lookup view "layout" in views directory "/home/hashim-zj/Desktop/Work/cyberWare/views"
+2022/11/03	10:36:58	8f2e3998-4b07-4913-b075-f35d51ad269a	Error : Failed to lookup view "layout" in views directory "/home/hashim-zj/Desktop/Work/cyberWare/views"
+2022/11/03	10:37:00	b9bbff55-fadb-497e-9cfa-1669df11ad63	Error : Failed to lookup view "layout" in views directory "/home/hashim-zj/Desktop/Work/cyberWare/views"
+2022/11/03	10:37:02	322d496d-1ec1-4082-922c-d0dee8dad023	Error : Failed to lookup view "layout" in views directory "/home/hashim-zj/Desktop/Work/cyberWare/views"
+2022/11/03	10:37:02	0719d63f-8ff6-4f78-8bb9-4586a0c87a8d	Error : Failed to lookup view "layout" in views directory "/home/hashim-zj/Desktop/Work/cyberWare/views"
+2022/11/03	10:37:03	5b9e7562-a2f7-4286-a855-3ec74aacf824	Error : Failed to lookup view "layout" in views directory "/home/hashim-zj/Desktop/Work/cyberWare/views"
+2022/11/03	10:37:03	b53a4a0c-0af2-440b-948a-588b242f4df1	Error : Failed to lookup view "layout" in views directory "/home/hashim-zj/Desktop/Work/cyberWare/views"
+2022/11/03	10:37:04	8e481f90-14f5-4d2d-a73d-ad0c529e67c0	Error : Failed to lookup view "layout" in views directory "/home/hashim-zj/Desktop/Work/cyberWare/views"
+2022/11/03	10:49:22	922d55d9-3544-4144-a9b8-898b65ee5fde	Error : Failed to lookup view "layout" in views directory "/home/hashim-zj/Desktop/Work/cyberWare/views"
+2022/11/03	10:49:22	f11fb8d1-7655-4276-85ac-9ee4a23d42fa	Error : Failed to lookup view "layout" in views directory "/home/hashim-zj/Desktop/Work/cyberWare/views"
+2022/11/03	10:50:00	130d8084-d740-48de-8621-e30977a667c4	Error : Failed to lookup view "/home/hashim-zj/Desktop/Work/cyberWare" in views directory "/home/hashim-zj/Desktop/Work/cyberWare/views"
+2022/11/03	10:50:01	60f5a490-d917-4c1c-91f7-bd5ad0f9193c	Error : Failed to lookup view "/home/hashim-zj/Desktop/Work/cyberWare" in views directory "/home/hashim-zj/Desktop/Work/cyberWare/views"
+2022/11/03	10:50:30	1c7a35af-9769-4f52-8f8c-2055a20ab53c	TypeError : View is not a constructor
+2022/11/03	10:50:34	534e8769-950a-431f-b04e-c760bdc0888a	TypeError : View is not a constructor
+2022/11/03	10:50:44	ddf1237c-7db3-4a8c-b64f-561d9e3529a2	Error : Failed to lookup view "layout" in views directory "/home/hashim-zj/Desktop/Work/cyberWare/views"
+2022/11/03	10:52:03	79d710ae-4ee6-47ec-a742-7352f96aef3d	Error : Failed to lookup view "layout" in views directory "/home/hashim-zj/Desktop/Work/cyberWare/views"
+2022/11/03	10:52:04	e163c347-4246-4980-aba8-d7cd00c09131	Error : Failed to lookup view "layout" in views directory "/home/hashim-zj/Desktop/Work/cyberWare/views"
+2022/11/03	10:52:04	18cf47e1-da5c-4e4c-b59a-58032323dc8c	Error : Failed to lookup view "layout" in views directory "/home/hashim-zj/Desktop/Work/cyberWare/views"
+2022/11/03	10:52:04	de905be9-94be-4827-a349-213469e262d4	Error : Failed to lookup view "layout" in views directory "/home/hashim-zj/Desktop/Work/cyberWare/views"
+2022/11/03	10:52:05	be5db765-bb93-4a1b-a5fb-87182babf54a	Error : Failed to lookup view "layout" in views directory "/home/hashim-zj/Desktop/Work/cyberWare/views"
+2022/11/03	10:52:59	f1bcf34a-7f0e-4557-b1ca-c1be77b34487	Error : Failed to lookup view "layout" in views directory "/home/hashim-zj/Desktop/Work/cyberWare/views"
+2022/11/03	10:53:00	f270e8bf-d2c9-4fae-bd9c-6434c2309da6	Error : Failed to lookup view "layout" in views directory "/home/hashim-zj/Desktop/Work/cyberWare/views"

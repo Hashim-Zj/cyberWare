@@ -1,5 +1,3 @@
-const { models } = require('mongoose');
-
 const whiteList = [
   'https://www.cyberware.com',
   'http://127.0.0.1:4000',
