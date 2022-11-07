@@ -6,7 +6,7 @@ const { v4: uuid } = require('uuid');
 const morgan = require('morgan');
 
 const logEvents = async (message, logName) => {
-  const dateTime = `${format(new Date(), 'yyyy/MM/dd\tHH:mm:ss')}`;
+  const dateTime = `${format(new Date(), 'yyyy-MM-dd HH:mm:ss')}`;
   const logItem = `${dateTime}\t${uuid()}\t${message}\n`;
 
   try {
